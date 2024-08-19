@@ -114,6 +114,7 @@
   top: 10px;
   left: 10px;
   display: none;
+  z-index: 20;
 }
 
 
@@ -165,6 +166,14 @@
     padding: 0 30px;
     width: 23vw;
     padding: 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    /* transform: translateX(-150px); */
+    display: none;
+    z-index: 9;
+    transition:5s ease-in-out;
     /* width: 40vw;
     z-index: 3; */
     /* transform: translateX(-150px); */
@@ -176,6 +185,7 @@
     flex-direction: column;
     justify-content: start;
     overflow-y: auto;
+    width: 100vw;
   }
 
   .details{
@@ -236,10 +246,11 @@
     margin-top: -50px;
   }
 
-  /* .x,.ham{
+  .x,.ham{
     display: block;
     cursor: pointer;
-  } */
+    z-index: 99;
+  }
 
   /* .facilities{
     z-index: 10;

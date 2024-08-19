@@ -109,6 +109,13 @@
   background-color: white;
 }
 
+.proj1:hover,
+  .proj2:hover,
+  .proj3:hover {
+    scale:1.02;
+    transition: 0.3s;
+  }
+
 .ham{
   position: absolute;
   top: 10px;
@@ -160,6 +167,20 @@
   display: flex;
 }
 
+.about{
+  padding: 30px 200px;
+  background-color: aliceblue;
+}
+
+.about h1{
+  font-weight: bold;
+  text-align: center;
+}
+
+.about h3{
+  margin-top: 15px;
+  font-size: 20px;
+}
 @media (max-width: 500px) {
   .sidebar {
     box-sizing: border-box;
@@ -219,7 +240,7 @@
     width: 80%;
     height: 200px;
     margin: 5px 0;
-  }
+  } 
 
   .proj1 {
     /* margin-top: -200px; */
@@ -262,5 +283,13 @@
    }
    .facility{
     margin: 10px 0;
+   }
+
+   .about{
+    padding: 20px 20px;
+   }
+
+   .about h1{
+    text-align: center;
    }
 }

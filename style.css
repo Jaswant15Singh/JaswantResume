@@ -120,6 +120,7 @@
     /* transform: translateX(-150px); */
   }
 
+
   .main {
     padding: 10px 10px;
     flex-direction: column;
@@ -127,6 +128,9 @@
     overflow-y: auto;
   }
 
+  .details{
+    margin-top: 100px;
+  }
   .im img {
     width: 100px;
     height: 100px;

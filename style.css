@@ -102,6 +102,25 @@ hr{
   margin-top: 5px;
 }
 
+.btn{
+  padding: 5px 63px;
+  border: 1px solid black;
+  background-color: gray;
+  color: white;
+  margin-top: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+.btn a{
+  text-decoration: none;
+   color: black"
+}
+.btn:hover{
+  color: black !important;
+  background-color: white;
+}
 .projects {
   display: flex;
   /* flex-wrap: wrap; */
@@ -206,6 +225,46 @@ hr{
   margin-top: 15px;
   font-size: 20px;
 }
+
+.form{
+  padding: 50px 120px;
+  background-image: url("https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/65725709c91402ab52b1c2b9_Best%207%2B%20Coding%20Languages%20for%20a%20SaaS%20Tech%20Stack%202023%20Guide.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+form{
+  height: 90%;
+  width: 30%;
+  background-color: rgb(44, 38, 38);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+form h1{
+  color: white;
+  margin-bottom: 10px;
+}
+
+form h4{
+  color: white;
+  margin-top: 20px;
+}
+
+form p{
+  color: beige;
+}
+
 @media (max-width: 500px) {
   .sidebar {
     box-sizing: border-box;
@@ -323,5 +382,13 @@ hr{
 
    .about h1{
     text-align: center;
+   }
+
+   .form{
+    padding: 10px 10px;
+   }
+   form{
+    width: 80%;
+    height: 70%;
    }
 }

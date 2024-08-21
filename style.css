@@ -118,7 +118,7 @@ hr{
   margin: 0 20px;
   display: flex;
   flex-direction: column;
-  padding: 0 10px;
+  padding: 0 0px;
   /* z-index: 2; */
   background-color: white;
 }
@@ -127,7 +127,13 @@ hr{
   object-fit: cover;
   margin-bottom: 20px;
 }
+.proj1 h1,.proj2 h1,.proj3{
+  text-align: center;
+}
 
+.proj1 p,.proj2 p,.proj3 p{
+  margin: 0 10px;
+}
 .proj1:hover,
   .proj2:hover,
   .proj3:hover {

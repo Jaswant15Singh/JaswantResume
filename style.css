@@ -404,4 +404,8 @@ form p{
     width: 80%;
     height: 70%;
    }
+
+   .con{
+    background-attachment: scroll;
+   }
 }

@@ -87,6 +87,18 @@
   color: white;
 }
 
+.con{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .no,
 .insta,
 .email {

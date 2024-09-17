@@ -75,16 +75,19 @@
   -webkit-text-stroke-color: green;
   transition: 3s;
   animation: animatedet 3s infinite;
-  -webkit-animation: alternate;
 }
 
 @keyframes animatedet{
-  from{
+  0%{
     -webkit-text-stroke-color: green;
   }
 
-  to{
+  50%{
     -webkit-text-stroke-color: gray;
+
+  }
+  100%{
+    -webkit-text-stroke-color: rgb(155, 23, 178);
 
   }
 

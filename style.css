@@ -40,6 +40,7 @@
   color: black;
 }
 .main {
+  margin-top: -200px;
   width: 90vw;
   display: flex;
   justify-content: space-around;
@@ -69,6 +70,25 @@
 
 .details h3 {
   font-size: 40px;
+  color: transparent !important;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: green;
+  transition: 3s;
+  animation: animatedet 3s infinite;
+  -webkit-animation: alternate;
+}
+
+@keyframes animatedet{
+  from{
+    -webkit-text-stroke-color: green;
+  }
+
+  to{
+    -webkit-text-stroke-color: gray;
+
+  }
+
+  
 }
 .skillhr{
   border-top: 3px dotted black;
@@ -299,6 +319,7 @@ form p{
   background-color: gray;
   color: white;
 }
+
 @media (max-width: 500px) {
   .sidebar {
     box-sizing: border-box;
@@ -325,6 +346,7 @@ form p{
     justify-content: start;
     overflow-y: auto;
     width: 100vw;
+    margin-top: 0;
   }
 
   .details{

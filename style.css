@@ -100,8 +100,9 @@
 
 .contact {
   background-color: black;
-  height: 50vh;
+  min-height: 50vh;
   width: 30vw;
+  padding: 3rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,6 +193,9 @@ hr{
   height: 250px;
   object-fit: cover;
   margin-bottom: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 .proj1 h1,.proj2 h1,.proj3{
   text-align: center;
@@ -207,6 +211,17 @@ hr{
     transition: 0.3s;
   }
 
+  .proj1 h1,.proj2 h1,.proj3 h1{
+    min-height:5rem;
+    line-height: 1.1;
+  }
+
+  .skills i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+  }
 .ham{
   position: absolute;
   top: 10px;
@@ -400,7 +415,10 @@ form p{
   .proj1 img,.proj2 img,.proj3 img{
     height: 200px;
     object-fit: cover;
+    
   }
+
+ 
 
   .proj1 {
     /* margin-top: -200px; */

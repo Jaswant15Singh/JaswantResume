@@ -293,7 +293,6 @@ hr{
 .facility>h4{
   height: 55px;
   font-size: 20px;
-
 }
 .facility img{
   width: 350px;
@@ -390,6 +389,31 @@ form p{
   color: black;
   border: 1px solid black;
 }
+
+
+.footer{
+  background-color: rgb(18,18,18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+.footer h1{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer .footer-nav,.footer .footer-nav a,.footer .footer-socials a,.footer .footer-socials{
+  list-style: none;
+  color: white;
+  margin: 10px 0;
+  display: flex;
+  gap: 15px;
+}
+
 
 @media (max-width: 500px) {
   .sidebar {
@@ -508,6 +532,14 @@ form p{
     padding: 10px 10px;
     border-radius: 15px;
    }
+
+   .facility h3{
+    height: 65px;
+   }
+   .facility>h4{
+    height: 55px;
+    font-size: 16px;
+  }
 
    .about{
     padding: 20px 20px;

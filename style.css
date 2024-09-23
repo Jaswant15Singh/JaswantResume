@@ -9,16 +9,41 @@
   box-sizing: border-box;
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-}
+} */
 
 .sidebar {
   background-color:#F8F6F3;
-  width: 10vw;
+  width: 100vw;
   padding: 50px 40px;
+  display: none;
+}
+
+nav{
+  /* background:#F8F6F3 ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px 80px;
+}
+
+nav>h1{
+  font-size: 35px;
+}
+.navul a{
+  text-decoration: none;
+  color: gray;
+
+}
+.navul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 25px;
 }
 
 /* .nosidebar{
@@ -41,7 +66,7 @@
 }
 .main {
   margin-top: -200px;
-  width: 90vw;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -133,9 +158,9 @@
   justify-content: center;
   align-items: center;
   background-position: center; */
+  background-color: rgb(240, 255, 255);
   width: 100vw;
   height: 100vh;
-  background-image: url("https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -416,6 +441,10 @@ form p{
 
 
 @media (max-width: 500px) {
+
+  nav{
+    display: none;
+  }
   .sidebar {
     box-sizing: border-box;
     padding: 0 30px;

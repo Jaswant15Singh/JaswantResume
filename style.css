@@ -277,6 +277,23 @@ hr{
 
 .facility{
   margin: 0 20px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: 30%;
+  transition: transform 0.3s;
+}
+
+.facility h3{
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+.facility>h4{
+  height: 55px;
+  font-size: 20px;
+
 }
 .facility img{
   width: 350px;
@@ -287,6 +304,15 @@ hr{
   font-weight: bolder;
   font-family: sans-serif;
   margin-top: 10px;
+}
+
+.facility>h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.facility:hover{
+  transform: translateY(-10px);
 }
 .rowtwo{
   display: flex;
@@ -477,7 +503,10 @@ form p{
     padding: 0 20px;
    }
    .facility{
+    width: 60vw;
     margin: 10px 0;
+    padding: 10px 10px;
+    border-radius: 15px;
    }
 
    .about{
